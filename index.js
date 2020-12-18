@@ -15,6 +15,7 @@ program
 	.version(pkg.version)
 
 program
+	.name('npm init @linke/project')
 	.command('ls', { isDefault: true })
 	.alias('list')
 	.description('list available project templates')

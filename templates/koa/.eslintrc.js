@@ -2,7 +2,6 @@ module.exports = {
 	env: {
 		es6: true,
 		node: true,
-		mocha: true,
 	},
 	extends: 'airbnb-base',
 	root: true,
@@ -15,10 +14,6 @@ module.exports = {
 		'linebreak-style': [
 			'error',
 			'unix',
-		],
-		quotes: [
-			'error',
-			'single',
 		],
 		semi: [
 			'error',
