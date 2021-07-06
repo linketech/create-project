@@ -1,0 +1,12 @@
+{
+  "name": "mono-test",
+  "version": "1.0.0",
+  "workspaces": [
+    "brickyard_modules/*"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "init": "yarn set version berry && yarn plugin import workspace-tools && powershell -c \"Add-Content -Path .yarnrc.yml -Value 'nodeLinker: node-modules'\""
+  }
+}

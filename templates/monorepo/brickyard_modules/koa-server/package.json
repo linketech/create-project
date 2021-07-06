@@ -1,0 +1,24 @@
+{
+    "name": "koa-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ."
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@brickyard/logger": "0.0.3",
+        "@koa/cors": "^3.1.0",
+        "koa": "^2.13.0",
+        "koa-body": "^4.2.0",
+        "koa-compress": "^5.0.1",
+        "koa-qs": "^3.0.0",
+        "koa-router": "^10.0.0"
+    },
+    "devDependencies": {
+        "eslint-airbnb-base": "workspace:*"
+    }
+}
