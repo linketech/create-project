@@ -12,6 +12,11 @@ Create a koa project:
 npm init @linke/project koa project-name
 ```
 
+Create a monorepo project:
+```bash
+npm init @linke/project monorepo project-name
+```
+
 List all project templates:
 ```bash
 npm init @linke/project ls
