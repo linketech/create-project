@@ -5,5 +5,5 @@
 To generate code
 
 ```bash
-node .
+node init.js
 ```
