@@ -1,5 +1,5 @@
 {
-  "name": "monorepo-project",
+  "name": "atest",
   "version": "1.0.0",
   "workspaces": [
     "brickyard_modules/*"
@@ -7,6 +7,6 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-        "init": "yarn set version berry && yarn plugin import workspace-tools && yarn config set nodeLinker node-modules"
+    "init": "yarn set version berry && yarn plugin import workspace-tools && yarn config set nodeLinker node-modules"
   }
 }

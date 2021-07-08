@@ -1,0 +1,9 @@
+{
+  "name": "@umijs/plugin-mono",
+  "main": "index.js",
+  "description": "scan workspaces of monorepo and add it to umi config",
+  "authors": {
+    "name": "Vincent",
+    "email": ""
+  }
+}
